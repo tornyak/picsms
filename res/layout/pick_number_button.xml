@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="6dp">
+        
+    <ImageView android:id="@+id/imageView1"
+    	android:src="@android:drawable/sym_action_call"
+    	android:layout_width="32dp"
+    	android:layout_height="32dp"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentLeft="true">
+    </ImageView>
+    
+    <TextView android:id="@+id/phoneType"
+    	android:text="TextView"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textAppearance="?android:attr/textAppearanceMedium"
+    	android:layout_alignTop="@+id/imageView1"
+    	android:layout_toRightOf="@+id/imageView1"
+    	android:layout_marginLeft="6dp">
+    </TextView>
+    
+    <TextView android:id="@+id/phoneNumber"
+    	android:text="TextView"
+    	android:layout_width="wrap_content"
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/imageView1"
+    	android:layout_alignLeft="@+id/imageView1">
+    </TextView>
+
+</RelativeLayout>

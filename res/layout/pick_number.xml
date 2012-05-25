@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android">
+  	
+  	<LinearLayout
+  		android:id="@+id/layout"
+  		android:orientation="vertical"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent">
+  
+    <ImageView android:id="@+id/contactPicture"
+    		   android:src="@drawable/ic_contact_picture"
+    		   android:layout_width="64dp"
+    		   android:layout_height="64dp"
+    		   android:padding="10dp">
+    </ImageView>
+    <TextView android:id="@+id/nameView"
+    	android:text="Contact Name"
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="10dp"
+    	android:paddingTop="16dp"
+    	android:paddingBottom="16dp">
+    </TextView>
+ 
+	</LinearLayout>   
+</ScrollView>
+    
+

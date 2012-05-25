@@ -1,0 +1,107 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=2296, tid=6024
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_25-b06
+# Java VM: Java HotSpot(TM) Client VM (20.0-b11 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01589800):  JavaThread "Unknown thread" [_thread_in_vm, id=6024, stack(0x014c0000,0x01510000)]
+
+Stack: [0x014c0000,0x01510000],  sp=0x0150f86c,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x13363a]
+V  [jvm.dll+0x12e59b]
+V  [jvm.dll+0x164ce]
+V  [jvm.dll+0x17cff]
+V  [jvm.dll+0x26de5]
+V  [jvm.dll+0x27626]
+V  [jvm.dll+0x279d5]
+V  [jvm.dll+0x27a69]
+V  [jvm.dll+0x27b2c]
+V  [jvm.dll+0x27baa]
+V  [jvm.dll+0x27c8d]
+V  [jvm.dll+0x27f59]
+V  [jvm.dll+0x6c593]
+V  [jvm.dll+0x6c96c]
+V  [jvm.dll+0xf9c1c]
+V  [jvm.dll+0x1184bb]
+V  [jvm.dll+0x9eba0]
+C  [javaw.exe+0x1657]
+C  [javaw.exe+0x1e2c]
+C  [javaw.exe+0x8614]
+C  [kernel32.dll+0x4d0e9]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x41603]  RtlInitializeExceptionChain+0x63
+C  [ntdll.dll+0x415d6]  RtlInitializeExceptionChain+0x36
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x01589800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=6024, stack(0x014c0000,0x01510000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files\Java\jre6\bin\javaw.exe
+0x77980000 - 0x77aa8000 	C:\Windows\system32\ntdll.dll
+0x76950000 - 0x76a2c000 	C:\Windows\system32\kernel32.dll
+0x766f0000 - 0x767b6000 	C:\Windows\system32\ADVAPI32.dll
+0x76450000 - 0x76513000 	C:\Windows\system32\RPCRT4.dll
+0x76bb0000 - 0x76c4d000 	C:\Windows\system32\USER32.dll
+0x77ac0000 - 0x77b0b000 	C:\Windows\system32\GDI32.dll
+0x76ab0000 - 0x76ace000 	C:\Windows\system32\IMM32.DLL
+0x76230000 - 0x762f8000 	C:\Windows\system32\MSCTF.dll
+0x76ad0000 - 0x76b7a000 	C:\Windows\system32\msvcrt.dll
+0x77b10000 - 0x77b19000 	C:\Windows\system32\LPK.DLL
+0x76a30000 - 0x76aad000 	C:\Windows\system32\USP10.dll
+0x7c340000 - 0x7c396000 	C:\Program Files\Java\jre6\bin\msvcr71.dll
+0x6d7f0000 - 0x6da9f000 	C:\Program Files\Java\jre6\bin\client\jvm.dll
+0x73bc0000 - 0x73bf2000 	C:\Windows\system32\WINMM.dll
+0x765a0000 - 0x766e5000 	C:\Windows\system32\ole32.dll
+0x77b50000 - 0x77bdd000 	C:\Windows\system32\OLEAUT32.dll
+0x73b80000 - 0x73bbe000 	C:\Windows\system32\OLEACC.dll
+0x75fe0000 - 0x7600c000 	C:\Windows\system32\apphelp.dll
+0x6d7a0000 - 0x6d7ac000 	C:\Program Files\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\Program Files\Java\jre6\bin\java.dll
+0x761d0000 - 0x761d7000 	C:\Windows\system32\PSAPI.DLL
+0x6d7e0000 - 0x6d7ef000 	C:\Program Files\Java\jre6\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1250 -Xbootclasspath:C:\Program Files\Android\platforms\android-11\android.jar 
+java_command: PictureBookBuilderXml
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\Program Files\Android\tools\lib;C:\Program Files\Java\jre6\lib\ext\QTJava.zip
+PATH=C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;c:\program files\common files\ulead systems\mpeg;c:\program files\ericsson\papc\client;c:\program files\ericsson\papc\client\share\bin;c:\program files\common files\ericssonshare;C:\Program Files\Pixie2\bin;C:\Program Files\Calibre2\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\QuickTime\QTSystem\;C:\cygwin\bin;C:\Program Files\Android\tools;C:\Program Files\Android\platform-tools;C:\Program Files\Google\google_appengine\;C:\Program Files\eclipse;
+USERNAME=etkvadi
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows Vista Build 6002 Service Pack 2
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1
+
+Memory: 4k page, physical 3042576k(1137384k free), swap 6293044k(3631572k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.0-b11) for windows-x86 JRE (1.6.0_25-b06), built on Apr 14 2011 01:04:32 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Sun Apr 01 19:35:12 2012
+elapsed time: 1 seconds
+

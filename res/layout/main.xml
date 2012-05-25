@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainMenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" style="@style/AppTheme">
+
+    <!--
+        <com.tornyak.picsms.PictureMessageBar
+       	android:id="@+id/messageBar"      
+        android:layout_width="fill_parent"
+        android:background="@color/notepad_paper"
+        android:layout_height="128dp"                 	      
+        android:layout_margin="5dp"/>
+    -->
+
+    <GridView
+        android:id="@+id/menuGridView"
+        style="@style/gridStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="@color/menu_bg" >
+    </GridView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:background="@drawable/ic_paper_legal_pad" >
+
+        <GridView
+            android:id="@+id/messageGridView"
+            style="@style/gridStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="135dp"
+            android:layout_toLeftOf="@+id/deleteButton"
+            android:columnWidth="64dp">
+        </GridView>
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:onClick="onDeletePressed"
+            android:src="@android:drawable/ic_input_delete" />
+    </RelativeLayout>
+"
+
+</RelativeLayout>

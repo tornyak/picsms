@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pictureBook name="default"
+             language="HR"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="picsms.xsd">
+  
+	<category name="activities"
+               image="@drawable/aktivnosti">       
+    	<text>aktivnosti</text>
+
+    	<picture name="throw"
+         	     type="word"
+         	     image="@drawable/aktivnosti_baci">
+        	<text>baci</text>
+    	</picture>    
+    
+    <picture name="reads"
+             type="word"             
+             image="@drawable/aktivnosti_cita">
+      <text>čita</text>
+		</picture>
+    
+           
+    <picture name="draws"   
+             type="word"
+             image="@drawable/aktivnosti_crta">
+      	<text>crta</text>
+	</picture>
+    
+    
+    <picture name="give"
+             type="word"
+             image="@drawable/aktivnosti_daj">
+      <text>daj</text>
+		</picture>
+    
+    
+    <picture name="lift"
+             type="word"
+             image="@drawable/aktivnosti_digni">
+        <text>podigni</text>
+			</picture>
+    
+    
+    <picture name="come"
+             type="word"
+             image="@drawable/aktivnosti_dodji">
+        <text>dođi</text>
+			</picture>
+    
+    
+    <picture name="watching_tv"
+             type="word"            
+             image="@drawable/aktivnosti_gledati_tv">
+    	<text>gledati TV</text>
+			</picture>
+    
+
+    <picture name="eats"
+             type="word"
+             image="@drawable/aktivnosti_jede">
+             <text>jede</text>
+			</picture>
+    
+    
+    <picture name="bathtub"
+             type="word"
+             image="@drawable/aktivnosti_kada">
+             <text>kada</text>
+			</picture>
+    
+    
+    <picture name="poo"
+             type="word"
+             image="@drawable/aktivnosti_kaka">
+             <text>kaka</text>
+			</picture>
+    
+    
+    <picture name="lies"
+             type="word"
+             image="@drawable/aktivnosti_lezi">
+             <text>leži</text>
+			</picture>
+    
+    
+    <picture name="catch"
+             type="word"
+             image="@drawable/aktivnosti_lovi">
+             <text>lovi</text>
+			</picture>
+    
+    
+    <picture name="carries"
+             type="word"
+             image="@drawable/aktivnosti_nosi">
+             <text>nosi</text>
+			</picture>
+    
+    
+    <picture name="falls"
+             type="word"
+             image="@drawable/aktivnosti_pada">
+             <text>pada</text>
+			</picture>
+    
+    
+    <picture name="climbs"
+             type="word"
+             image="@drawable/aktivnosti_penje_se">
+             <text>penje se</text>
+			</picture>
+    
+
+    <picture name="washes"
+             type="word"
+             image="@drawable/aktivnosti_pere">
+             <text>pere</text>
+			</picture>
+    
+    
+    <picture name="baths"
+             type="word"
+             image="@drawable/aktivnosti_pere_4">
+             <text>kupa se</text>
+			</picture>
+    
+
+    <picture name="washes_hands"
+             type="word"
+             image="@drawable/aktivnosti_pere_ruke">
+             <text>pere ruke</text>
+			</picture>
+    
+    
+    <picture name="drinks"
+             type="word"
+             image="@drawable/aktivnosti_pije">
+             <text>pije</text>
+			</picture>
+    
+    
+    <picture name="dances"
+             type="word"
+             image="@drawable/aktivnosti_plese">
+             <text>pleše</text>
+			</picture>
+    
+    
+    <picture name="swims"
+             type="word"
+             image="@drawable/aktivnosti_pliva">
+             <text>pliva</text>
+			</picture>
+    
+    
+    <picture name="show"
+             type="word"
+             image="@drawable/aktivnosti_pokazi">
+             <text>pokaži</text>
+			</picture>
+    
+    
+    <picture name="blows"
+             type="word"
+             image="@drawable/aktivnosti_puse">
+             <text>puše</text>
+			</picture>
+    
+    
+    <picture name="cuts"
+             type="word"
+             image="@drawable/aktivnosti_reze">
+             <text>reže</text>
+			</picture>
+    
+
+    <picture name="sit"
+             type="word"
+             image="@drawable/aktivnosti_sjedni">
+             <text>sjedni</text>
+			</picture>
+    
+    
+    <picture name="laughs"
+             type="word"
+             image="@drawable/aktivnosti_smije_se">
+             <text>smije se</text>
+			</picture>
+    
+    
+    <picture name="sleeps"
+             type="word"
+             image="@drawable/aktivnosti_spava_2">
+             <text>spava</text>
+			</picture>
+    
+    
+    <picture name="runs"
+             type="word"
+             image="@drawable/aktivnosti_trci">
+             <text>trči</text>
+			</picture>
+    
+    
+    <picture name="kick"
+             type="word"
+             image="@drawable/aktivnosti_udari_nogom">
+             <text>udari nogom</text>
+			</picture>
+          
+  </category>
+
+  <category name="body"
+           image="@drawable/tijelo">
+           <text>tijelo</text>
+           
+    <picture name="butt"
+             type="word"
+             image="@drawable/tijelo_guza">
+             <text>guza</text>
+			</picture>
+    
+
+    <picture name="hair"
+             type="word"
+             image="@drawable/tijelo_kosa">
+             <text>kosa</text>
+			</picture>
+    
+
+
+    <picture name="nose"
+             type="word"
+             image="@drawable/tijelo_nos">
+             <text>nos</text>
+			</picture>
+    
+
+    <picture name="eyes"
+             type="word"
+             image="@drawable/tijelo_oci">
+             <text>oči</text>
+			</picture>
+    
+
+    <picture name="oko"
+             type="word"
+             image="@drawable/tijelo_oko">
+             <text>eye</text>
+			</picture>
+    
+
+    <picture name="hand"
+             type="word"
+             image="@drawable/tijelo_ruka">
+             <text>ruka</text>
+			</picture>
+    
+    
+    <picture name="ear"
+             type="word"
+             image="@drawable/tijelo_uho">
+             <text>uho</text>
+			</picture>
+    
+
+    <picture name="mouth"
+             type="word"
+             image="@drawable/tijelo_usta">
+             <text>usta</text>
+			</picture>
+            
+  </category>
+ 
+  <category name="food"
+             image="@drawable/hrana">
+             <text>hrana</text>
+
+    <picture name="chips"
+             type="word"
+             image="@drawable/hrana_cips">
+             <text>čips</text>
+			</picture>
+    
+
+    <picture name="chocolate"
+             type="word"
+             image="@drawable/hrana_cokolada">
+             <text>čokolada</text>
+			</picture>
+    
+    
+    <picture name="breakfast"
+             type="word"
+             image="@drawable/hrana_dorucak">
+             <text>doručak</text>
+			</picture>
+    
+
+    <picture name="food"
+             type="word"
+             image="@drawable/hrana_hrana">
+             <text>hrana</text>
+			</picture>
+    
+
+    <picture name="popcorns"
+             type="word"
+             image="@drawable/hrana_kokice">
+             <text>kokice</text>
+			</picture>
+    
+
+    <picture name="bread"
+             type="word"
+             image="@drawable/hrana_kruh">
+             <text>kruh</text>
+			</picture>
+    
+
+    <picture name="muffin"
+             type="word"
+             image="@drawable/hrana_mufin">
+             <text>muffin</text>
+			</picture>
+    
+
+    <picture name="pretzel"
+             type="word"
+             image="@drawable/hrana_perec">
+             <text>perec</text>
+			</picture>
+    
+
+    <picture name="pizza"
+             type="word"
+             image="@drawable/hrana_pizza">
+             <text>pizza</text>
+			</picture>
+    
+
+    <picture name="french_fries"
+             type="word"
+             image="@drawable/hrana_pomfrit">
+             <text>pomfit</text>
+			</picture>
+    
+
+    <picture name="lunch"
+             type="word"
+             image="@drawable/hrana_rucak">
+             <text>ručak</text>
+			</picture>
+    
+
+    <picture name="cheese"
+             type="word"
+             image="@drawable/hrana_sir">
+             <text>sir</text>
+			</picture>
+    
+
+    <picture name="ice_cream"
+             type="word"
+             image="@drawable/hrana_sladoled">
+             <text>sladoled</text>
+			</picture>
+    
+
+    <picture name="dough"
+             type="word"
+             image="@drawable/hrana_tijesto">
+             <text>tijesto</text>
+			</picture>
+    
+
+    <picture name="cake"
+             type="word"
+             image="@drawable/hrana_torta">
+             <text>torta</text>
+			</picture>
+    
+
+    <picture name="water"
+             type="word"
+             image="@drawable/hrana_voda">
+             <text>voda</text>
+			</picture>
+    
+         
+  </category>
+  
+  <category name="animals"
+             image="@drawable/zivotinje">
+             <text>životinje</text>
+           
+    <picture name="horse"
+             type="word"
+             image="@drawable/zivotinje_konj">
+             <text>konj</text>
+			</picture>
+    
+
+    <picture name="cow"
+             type="word"
+             image="@drawable/zivotinje_krava">
+             <text>krava</text>
+			</picture>
+    
+
+    <picture name="lion"
+             type="word"
+             image="@drawable/zivotinje_lav">
+             <text>lav</text>
+			</picture>
+    
+
+    <picture name="cat"
+             type="word"
+             image="@drawable/zivotinje_maca">
+             <text>maca</text>
+			</picture>
+    
+
+    <picture name="monkey"
+             type="word"
+             image="@drawable/zivotinje_majmun">
+             <text>majmun</text>
+			</picture>
+    
+
+    <picture name="bear"
+             type="word"
+             image="@drawable/zivotinje_medo">
+             <text>medo</text>
+			</picture>
+    
+
+    <picture name="mouse"
+             type="word"
+             image="@drawable/zivotinje_mis">
+             <text>mią</text>
+			</picture>
+    
+
+    <picture name="dog"
+             type="word"
+             image="@drawable/zivotinje_pas">
+             <text>pas</text>
+			</picture>
+    
+
+    <picture name="duck"
+             type="word"
+             image="@drawable/zivotinje_patka">
+             <text>patka</text>
+			</picture>
+    
+
+    <picture name="bird"
+             type="word"
+             image="@drawable/zivotinje_ptica">
+             <text>ptica</text>
+			</picture>
+    
+
+    <picture name="fish"
+             type="word"
+             image="@drawable/zivotinje_riba">
+             <text>riba</text>
+			</picture>
+    
+
+    <picture name="elephant"
+             type="word"
+             image="@drawable/zivotinje_slon">
+             <text>slon</text>
+			</picture>
+    
+
+    <picture name="squirrel"
+             type="word"
+             image="@drawable/zivotinje_vjeverica">
+             <text>vjeverica</text>
+			</picture>
+    
+
+    <picture name="rabbit"
+             type="word"
+             image="@drawable/zivotinje_zeko">
+             <text>zeko</text>
+			</picture>
+           
+  </category>
+
+  <category name="signs"
+           image="@drawable/znakovi">
+           <text>znakovi</text>
+
+
+    <picture name="scared"
+             type="word"
+             image="@drawable/znakovi_boji_se">
+             <text>boji se</text>
+			</picture>
+    
+
+    <picture name="congratulations"
+             type="word"
+             image="@drawable/znakovi_cestitam">
+             <text>čestitam</text>
+			</picture>
+    
+
+    <picture name="yes"
+             type="word"
+             image="@drawable/znakovi_da">
+             <text>da</text>
+			</picture>
+    
+
+    <picture name="give"
+             type="word"
+             image="@drawable/znakovi_daj">
+             <text>daj</text>
+			</picture>
+    
+
+    <picture name="i_am_fine"
+             type="word"
+             image="@drawable/znakovi_dobro_sam">
+             <text>dobro sam</text>
+			</picture>
+    
+
+    <picture name="come"
+             type="word"
+             image="@drawable/znakovi_dodji">
+             <text>dođi</text>
+			</picture>
+    
+
+    <picture name="where"
+             type="word"
+             image="@drawable/znakovi_gdje">
+             <text>gdje</text>
+			</picture>
+    
+
+    <picture name="finnished"
+             type="word"
+             image="@drawable/znakovi_gotovo">
+             <text>gotovo</text>
+			</picture>
+    
+
+    <picture name="thank_you"
+             type="word"
+             image="@drawable/znakovi_hvala">
+             <text>hvala</text>
+			</picture>
+    
+
+    <picture name="and"
+             type="word"
+             image="@drawable/znakovi_i">
+             <text>i</text>
+			</picture>
+    
+
+    <picture name="below"
+             type="word"
+             image="@drawable/znakovi_ispod">
+             <text>ispod</text>
+			</picture>
+    
+
+    <picture name="in_front_of"
+             type="word"
+             image="@drawable/znakovi_ispred">
+             <text>ispred</text>
+			</picture>
+    
+
+    <picture name="behind"
+             type="word"
+             image="@drawable/znakovi_iza">
+             <text>iza</text>
+			</picture>
+    
+
+    <picture name="between"
+             type="word"
+             image="@drawable/znakovi_izmedju">
+             <text>između</text>
+			</picture>
+    
+
+    <picture name="above"
+             type="word"
+             image="@drawable/znakovi_iznad">
+             <text>iznad</text>
+			</picture>
+    
+
+    <picture name="take_out"
+             type="word"
+             image="@drawable/znakovi_izvadi">
+             <text>izvadi</text>
+			</picture>
+    
+
+    <picture name="more"
+             type="word"
+             image="@drawable/znakovi_jos">
+             <text>još</text>
+			</picture>
+    
+
+    <picture name="when"
+             type="word"
+             image="@drawable/znakovi_kada">
+             <text>kada</text>
+			</picture>
+    
+
+    <picture name="how"
+             type="word"
+             image="@drawable/znakovi_kako">
+             <text>kako</text>
+			</picture>
+    
+
+    <picture name="how_are_you"
+             type="word"
+             image="@drawable/znakovi_kako_si">
+             <text>kako si</text>
+			</picture>
+    
+
+    <picture name="weather"
+             type="word"
+             image="@drawable/znakovi_kakvo_je_vrijeme">
+             <text>kakvo je vrijeme</text>
+			</picture>
+    
+
+    <picture name="how_much"
+             type="word"
+             image="@drawable/znakovi_koliko">
+             <text>koliko</text>
+			</picture>
+    
+
+    <picture name="through"
+             type="word"
+             image="@drawable/znakovi_kroz">
+             <text>kroz</text>
+			</picture>
+    
+
+    <picture name="angry"
+             type="word"
+             image="@drawable/znakovi_ljut">
+             <text>ljut</text>
+			</picture>
+    
+
+    <picture name="move"
+             type="word"
+             image="@drawable/znakovi_makni">
+             <text>makni</text>
+			</picture>
+    
+
+    <picture name="my"
+             type="word"
+             image="@drawable/znakovi_moje">
+             <text>moje</text>
+			</picture>
+    
+
+    <picture name="on"
+             type="word"
+             image="@drawable/znakovi_na">
+             <text>na</text>
+			</picture>
+    
+
+    <picture name="no"
+             type="word"
+             image="@drawable/znakovi_ne">
+             <text>ne</text>
+			</picture>
+    
+
+    <picture name="dont_know"
+             type="word"
+             image="@drawable/znakovi_ne_znam">
+             <text>ne znam</text>
+			</picture>
+    
+
+    <picture name="from"
+             type="word"
+             image="@drawable/znakovi_od">
+             <text>od</text>
+			</picture>
+    
+
+    <picture name="ok"
+             type="word"
+             image="@drawable/znakovi_ok">
+             <text>OK</text>
+			</picture>
+    
+
+    <picture name="around"
+             type="word"
+             image="@drawable/znakovi_oko">
+             <text>oko</text>
+			</picture>
+    
+
+    <picture name="feelings"
+             type="word"
+             image="@drawable/znakovi_osjecaji">
+             <text>osjećaji</text>
+			</picture>
+    
+
+    <picture name="leave_me_alone"
+             type="word"
+             image="@drawable/znakovi_ostavi_me_na_miru">
+             <text>ostavi me na miru</text>
+			</picture>
+    
+
+    <picture name="this"
+             type="word"
+             image="@drawable/znakovi_ovo">
+             <text>ovo</text>
+			</picture>
+    
+
+    <picture name="questions"
+             type="word"
+             image="@drawable/znakovi_pitanja">
+             <text>pitanja</text>
+			</picture>
+    
+
+    <picture name="show"
+             type="word"
+             image="@drawable/znakovi_pokazi">
+             <text>pokaži</text>
+			</picture>
+    
+
+    <picture name="beside"
+             type="word"
+             image="@drawable/znakovi_pokraj">
+             <text>pokraj</text>
+			</picture>
+    
+
+    <picture name="towards"
+             type="word"
+             image="@drawable/znakovi_prema">
+             <text>prema</text>
+			</picture>
+    
+
+    <picture name="with"
+             type="word"
+             image="@drawable/znakovi_sa">
+             <text>sa</text>
+			</picture>
+    
+
+    <picture name="joking"
+             type="word"
+             image="@drawable/znakovi_salim_se">
+             <text>šalim se</text>
+			</picture>
+    
+
+    <picture name="what_is_that"
+             type="word"
+             image="@drawable/znakovi_sto_je_to">
+             <text>što je to</text>
+			</picture>
+    
+
+    <picture name="there"
+             type="word"
+             image="@drawable/znakovi_tamo">
+             <text>tamo</text>
+			</picture>
+    
+
+    <picture name="who"
+             type="word"
+             image="@drawable/znakovi_tko">
+             <text>tko</text>
+			</picture>
+    
+
+    <picture name="sad"
+             type="word"
+             image="@drawable/znakovi_tuzan">
+             <text>tužan</text>
+			</picture>
+    
+
+    <picture name="in"
+             type="word"
+             image="@drawable/znakovi_u">
+             <text>u</text>
+			</picture>
+    
+
+    <picture name="happy"
+             type="word"
+             image="@drawable/znakovi_veseli">
+             <text>veseli</text>
+			</picture>
+    
+
+    <picture name="forgot"
+             type="word"
+             image="@drawable/znakovi_zaboravio_sam">
+             <text>zaboravio sam</text>
+			</picture>
+    
+
+    <picture name="want"
+             type="word"
+             image="@drawable/znakovi_zelim">
+             <text>želim</text>
+			</picture>
+    
+         
+  </category>
+  
+    <category name="items"
+           image="@drawable/predmeti">
+           <text>predmeti</text>
+           
+      <picture name="car"
+               type="word"
+               image="@drawable/predmeti_auto">
+               <text>auto</text>
+			</picture>
+      
+
+      <picture name="baloons"
+               type="word"
+               image="@drawable/predmeti_baloni">
+               <text>baloni</text>
+			</picture>
+      
+
+      <picture name="bicycle"
+               type="word"
+               image="@drawable/predmeti_bicikl">
+               <text>bicikl</text>
+			</picture>
+      
+
+      <picture name="boat"
+               type="word"
+               image="@drawable/predmeti_brod">
+               <text>brod</text>
+			</picture>
+      
+
+      <picture name="glass"
+               type="word"
+               image="@drawable/predmeti_casa">
+               <text>čaša</text>
+			</picture>
+      
+
+      <picture name="comb"
+               type="word"
+               image="@drawable/predmeti_cesalj">
+               <text>češalj</text>
+			</picture>
+      
+
+      <picture name="home"
+               type="word"
+               image="@drawable/predmeti_doma">
+               <text>doma</text>
+			</picture>
+      
+
+      <picture name="dvd"
+               type="word"
+               image="@drawable/predmeti_dvd">
+               <text>DVD</text>
+			</picture>
+      
+
+      <picture name="paintbrush"
+               type="word"
+               image="@drawable/predmeti_kist">
+               <text>kist</text>
+			</picture>
+      
+
+      <picture name="key"
+               type="word"
+               image="@drawable/predmeti_kljuc">
+               <text>ključ</text>
+			</picture>
+      
+
+      <picture name="book"
+               type="word"
+               image="@drawable/predmeti_knjiga">
+               <text>knjiga</text>
+			</picture>
+      
+
+      <picture name="computer"
+               type="word"
+               image="@drawable/predmeti_kompjuter">
+               <text>kompjuter</text>
+			</picture>
+      
+
+      <picture name="ball"
+               type="word"
+               image="@drawable/predmeti_lopta">
+               <text>lopta</text>
+			</picture>
+      
+
+      <picture name="swing"
+               type="word"
+               image="@drawable/predmeti_ljuljacka">
+               <text>ljuljačka</text>
+			</picture>
+      
+
+      <picture name="airplane"
+               type="word"
+               image="@drawable/predmeti_avion">
+               <text>avion</text>
+			</picture>
+      
+
+      <picture name="pencil"
+               type="word"
+               image="@drawable/predmeti_olovka">
+               <text>olovka</text>
+			</picture>
+      
+
+      <picture name="watch"
+               type="word"
+               image="@drawable/predmeti_sat">
+               <text>sat</text>
+			</picture>
+      
+
+      <picture name="scissors"
+               type="word"
+               image="@drawable/predmeti_skare">
+               <text>škare</text>
+			</picture>
+      
+
+      <picture name="table"
+               type="word"
+               image="@drawable/predmeti_stol">
+               <text>stol</text>
+			</picture>
+      
+
+      <picture name="chair"
+               type="word"
+               image="@drawable/predmeti_stolica">
+               <text>stolica</text>
+			</picture>
+      
+
+      <picture name="telephone"
+               type="word"
+               image="@drawable/predmeti_telefon">
+               <text>telefon</text>
+			</picture>
+      
+
+      <picture name="toilet_paper"
+               type="word"
+               image="@drawable/predmeti_toaletpapir">
+               <text>toaletni papir</text>
+			</picture>
+      
+
+      <picture name="tv"
+               type="word"
+               image="@drawable/predmeti_tv">
+               <text>TV</text>
+			</picture>
+      
+
+      <picture name="train"
+               type="word"
+               image="@drawable/predmeti_vlak">
+               <text>vlak</text>
+			</picture>
+      
+
+      <picture name="door"
+               type="word"
+               image="@drawable/predmeti_vrata">
+               <text>vrata</text>
+			</picture>
+      
+         
+  </category>
+  
+  <category name="clothes"
+             image="@drawable/odjeca">
+             <text>odjeća</text>
+           
+      <picture name="socks"
+               type="word"
+               image="@drawable/odjeca_carape">
+               <text>čarape</text>
+			</picture>
+      
+
+      <picture name="shoes"
+               type="word"
+               image="@drawable/odjeca_cipele">
+               <text>cipele</text>
+			</picture>
+      
+
+      <picture name="underpants"
+               type="word"
+               image="@drawable/odjeca_gace">
+               <text>gaće</text>
+			</picture>
+      
+
+      <picture name="trousers"
+               type="word"
+               image="@drawable/odjeca_hlace">
+               <text>hlače</text>
+			</picture>
+      
+
+      <picture name="jacket"
+               type="word"
+               image="@drawable/odjeca_jakna">
+               <text>jakna</text>
+			</picture>
+      
+
+      <picture name="cap"
+               type="word"
+               image="@drawable/odjeca_kapa">
+               <text>kapa</text>
+			</picture>
+      
+
+      <picture name="shirt"
+               type="word"
+               image="@drawable/odjeca_majica">
+               <text>majica</text>
+			</picture>
+      
+
+      <picture name="glasses"
+               type="word"
+               image="@drawable/odjeca_naocale">
+               <text>naočale</text>
+			</picture>
+      
+
+      <picture name="slippers"
+               type="word"
+               image="@drawable/odjeca_slape">
+               <text>šlape</text>
+			</picture>
+      
+
+      <picture name="sneakers"
+               type="word"
+               image="@drawable/odjeca_tenesice">
+               <text>tenisice</text>
+			</picture>
+      
+         
+  </category>  
+  
+  <category name="colors"
+           image="@drawable/boje">
+           <text>boje</text>
+
+      <picture name="white"
+               type="word"
+               image="@drawable/boje_bijela">
+               <text>bijela</text>
+			</picture>
+      
+
+      <picture name="black"
+               type="word"
+               image="@drawable/boje_crna">
+               <text>crna</text>
+			</picture>
+      
+
+      <picture name="red"
+               type="word"
+               image="@drawable/boje_crvena">
+               <text>crvena</text>
+			</picture>
+      
+
+      <picture name="purple"
+               type="word"
+               image="@drawable/boje_ljubicasta">
+               <text>ljubičasta</text>
+			</picture>
+      
+
+      <picture name="orange"
+               type="word"
+               image="@drawable/boje_narancasta">
+               <text>narančasta</text>
+			</picture>
+      
+
+      <picture name="blue"
+               type="word"
+               image="@drawable/boje_plava">
+               <text>plava</text>
+			</picture>
+      
+
+      <picture name="pink"
+               type="word"
+               image="@drawable/boje_ruzicasta">
+               <text>ružičasta</text>
+			</picture>
+      
+
+      <picture name="grey"
+               type="word"
+               image="@drawable/boje_siva">
+               <text>siva</text>
+			</picture>
+      
+
+      <picture name="brown"
+               type="word"
+               image="@drawable/boje_smedja">
+               <text>smeđa</text>
+			</picture>
+      
+      <picture name="green"
+               type="word"
+               image="@drawable/boje_zelena">
+               <text>zelena</text>
+			</picture>
+      
+
+      <picture name="yellow"
+               type="word"
+               image="@drawable/boje_zuta">
+               <text>žuta</text>
+			</picture>
+      
+
+  </category>
+  
+  
+  <category name="places"
+           image="@drawable/mjesta">
+           <text>mjesta</text>
+           
+      <picture name="cinema"
+               type="word"
+               image="@drawable/mjesta_kino">
+               <text>kino</text>
+			</picture>
+      
+
+      <picture name="park"
+               type="word"
+               image="@drawable/mjesta_park">
+               <text>park</text>
+			</picture>
+      
+
+      <picture name="school"
+               type="word"
+               image="@drawable/mjesta_skola">
+               <text>škola</text>
+			</picture>
+      
+
+      <picture name="world"
+               type="word"
+               image="@drawable/mjesta_svijet">
+               <text>svijet</text>
+			</picture>
+      
+
+      <picture name="wc"
+               type="word"
+               image="@drawable/mjesta_wc">
+               <text>WC</text>
+			</picture>
+      
+
+      <picture name="zoo"
+               type="word"
+               image="@drawable/mjesta_zoo">
+               <text>ZOO</text>
+			</picture>
+      
+         
+  </category>
+  
+  <category name="nature"
+           image="@drawable/priroda">
+           <text>priroda</text>
+
+      <picture name="flower"
+               type="word"
+               image="@drawable/priroda_cvijet_1">
+               <text>cvijet</text>
+			</picture>
+      
+
+      <picture name="tree"
+               type="word"
+               image="@drawable/priroda_drvo">
+               <text>drvo</text>
+			</picture>
+      
+
+      <picture name="cold"
+               type="word"
+               image="@drawable/priroda_hladno">
+               <text>hladno</text>
+			</picture>
+      
+
+      <picture name="autumn"
+               type="word"
+               image="@drawable/priroda_jesen">
+               <text>jesen</text>
+			</picture>
+      
+
+      <picture name="morning"
+               type="word"
+               image="@drawable/priroda_jutro">
+               <text>jutro</text>
+			</picture>
+      
+
+      <picture name="rain"
+               type="word"
+               image="@drawable/priroda_kisa">
+               <text>kiša</text>
+			</picture>
+      
+
+      <picture name="summer"
+               type="word"
+               image="@drawable/priroda_ljeto">
+               <text>ljeto</text>
+			</picture>
+      
+
+      <picture name="foggy"
+               type="word"
+               image="@drawable/priroda_maglovito">
+               <text>maglovito</text>
+			</picture>
+      
+
+      <picture name="spring"
+               type="word"
+               image="@drawable/priroda_proljece">
+               <text>proljeće</text>
+			</picture>
+      
+
+      <picture name="wind"
+               type="word"
+               image="@drawable/priroda_vjetar">
+               <text>vjetar</text>
+			</picture>
+      
+
+      <picture name="snow"
+               type="word"
+               image="@drawable/priroda_snijeg">
+               <text>snijeg</text>
+			</picture>
+      
+
+      <picture name="sun"
+               type="word"
+               image="@drawable/priroda_sunce">
+               <text>sunce</text>
+			</picture>
+      
+
+      <picture name="evening"
+               type="word"
+               image="@drawable/priroda_vecer">
+               <text>večer</text>
+			</picture>
+      
+
+      <picture name="weather"
+               type="word"
+               image="@drawable/priroda_vrijeme">
+               <text>vrijeme</text>
+			</picture>
+      
+
+      <picture name="hot"
+               type="word"
+               image="@drawable/priroda_vruce">
+               <text>vruće</text>
+			</picture>
+      
+
+      <picture name="winter"
+               type="word"
+               image="@drawable/priroda_zima">
+               <text>zima</text>
+			</picture>
+      
+         
+  </category>
+  
+  <picture name="keyboard"
+           type="action"
+           image="@drawable/keyboard">
+           <text>tipkovnica</text>
+           <action>input_text</action>
+  </picture>
+  
+  <picture name="sms"
+           type="action"
+           image="@drawable/message">
+           <text>SMS</text>
+           <action>send_sms</action>
+  </picture>
+           
+</pictureBook>
