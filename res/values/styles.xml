@@ -69,6 +69,7 @@
         <item name="android:numColumns">auto_fit</item>
         <item name="android:scrollbars">none</item>
         <item name="android:stretchMode">columnWidth</item>
-        <item name="android:verticalSpacing">10dp</item>
+        <item name="android:verticalSpacing">5dp</item>
+        <item name="android:horizontalSpacing">5dp</item>
     </style>
 </resources>

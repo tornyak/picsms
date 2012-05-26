@@ -2,6 +2,7 @@ package com.tornyak.picsms;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
@@ -30,6 +31,8 @@ public class PictureGridMenu {
 	private PictureMessageBar pmb;
 
 	private int textColor;
+	private float textSize;
+	private float pictureWidth;
 
 	public PictureGridMenu(Context context, PictureBook pb, GridView gridView, PictureMessageBar pmb) {
 		this.context = context;
@@ -39,7 +42,11 @@ public class PictureGridMenu {
 		gridView.setAdapter(adapter);
 		gridView.setOnItemClickListener(new PictureGridMenuItemClickListener());
 
-		textColor = context.getResources().getColor(R.color.menu_icon_text);
+		Resources res = context.getResources();
+
+		textColor = res.getColor(R.color.menu_icon_text);
+		textSize = res.getDimension(R.dimen.grid_picture_text_size);
+		pictureWidth = res.getDimension(R.dimen.grid_picture_width);
 	}
 
 	public class PictureGridMenuItemClickListener implements OnItemClickListener {
@@ -109,22 +116,19 @@ public class PictureGridMenu {
 
 			if (convertView == null) {
 				textView = new TextView(context);
-				// textView.setLayoutParams(new GridView.LayoutParams(60, 60));
-				// imageView.setAdjustViewBounds(false);
-				// imageView.setScaleType(ImageView.ScaleType.CENTER);
-				// imageView.setPadding(8, 8, 8, 8);
 			} else {
 				textView = (TextView) convertView;
 			}
 
 			int resId = pb.getImageInfo(position).getResourceId();
-			Bitmap b = BitmapUtils.decodeSampledBitmapFromResource(context.getResources(), resId, 57, 57);
+
+			Bitmap b = BitmapUtils.decodeSampledBitmapFromResource(context.getResources(), resId, (int) pictureWidth, (int) pictureWidth);
 			icon = new BitmapDrawable(b);
+
 			textView.setCompoundDrawablesWithIntrinsicBounds(null, icon, null, null);
 			textView.setTextColor(textColor);
-			textView.setTextSize(16);
+			textView.setTextSize(textSize);
 			textView.setGravity(Gravity.CENTER);
-			// textView.setTypeface(Typeface.DEFAULT_BOLD);
 			textView.setText(pb.getText(position));
 
 			return textView;

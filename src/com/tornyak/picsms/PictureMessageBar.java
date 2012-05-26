@@ -2,9 +2,6 @@ package com.tornyak.picsms;
 
 import java.util.ArrayList;
 
-import com.tornyak.picsms.pictures.BitmapUtils;
-import com.tornyak.picsms.pictures.Picture;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Build;
@@ -14,6 +11,9 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+import com.tornyak.picsms.pictures.BitmapUtils;
+import com.tornyak.picsms.pictures.Picture;
+
 public class PictureMessageBar {
 
 	private final String LOG_TAG = "PictureMessageBar";
@@ -22,12 +22,15 @@ public class PictureMessageBar {
 	private GridView gridView;
 	private ArrayList<Picture> message;
 
+	private float pictureWidth;
+
 	public PictureMessageBar(Context context, GridView gridView) {
 		this.context = context;
 		this.gridView = gridView;
 		message = new ArrayList<Picture>();
 		adapter = new PictureMessageBarAdapter();
 		gridView.setAdapter(adapter);
+		pictureWidth = context.getResources().getDimension(R.dimen.grid_message_picture_width);
 	}
 
 	public void addPicture(Picture p) {
@@ -66,16 +69,12 @@ public class PictureMessageBar {
 			ImageView imageView;
 			if (convertView == null) {
 				imageView = new ImageView(context);
-				imageView.setLayoutParams(new GridView.LayoutParams(72, 72));
-				// imageView.setAdjustViewBounds(false);
-				// imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-				// imageView.setPadding(8, 8, 8, 8);
 			} else {
 				imageView = (ImageView) convertView;
 			}
 
 			int resId = message.get(position).getImageInfo().getResourceId();
-			Bitmap b = BitmapUtils.decodeSampledBitmapFromResource(context.getResources(), resId, 72, 72);
+			Bitmap b = BitmapUtils.decodeSampledBitmapFromResource(context.getResources(), resId, (int) pictureWidth, (int) pictureWidth);
 			imageView.setImageBitmap(b);
 
 			return imageView;

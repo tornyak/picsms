@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<dimen name="notepad_margin">30dp</dimen>
-	
 	<dimen name="actionbar_compat_height">48dp</dimen>
     <dimen name="actionbar_compat_button_width">48dp</dimen>
     <dimen name="actionbar_compat_button_home_width">56dp</dimen>
+    <dimen name="grid_picture_width">64dp</dimen>
+    <dimen name="grid_contact_picture_width">128dp</dimen>
+    <dimen name="grid_message_picture_width">48dp</dimen>
+    <dimen name="grid_message_picture_spacing">5dp</dimen>
+    <dimen name="grid_message_width">100dp</dimen>
+    <dimen name="grid_picture_text_size">12sp</dimen>
+    <dimen name="menu_button_height">64dp</dimen>
+    
 </resources>

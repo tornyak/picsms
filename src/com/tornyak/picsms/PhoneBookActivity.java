@@ -5,7 +5,9 @@ import java.io.InputStream;
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
@@ -21,6 +23,8 @@ import android.widget.CursorAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
 
+import com.tornyak.picsms.pictures.BitmapUtils;
+
 public class PhoneBookActivity extends Activity {
 
 	private static final String LOG_TAG = "PhoneBookActivity";
@@ -29,10 +33,24 @@ public class PhoneBookActivity extends Activity {
 	private Cursor phoneCursor;
 	private GridView contactView;
 
+	private int textColor;
+	private float textSize;
+	private float pictureWidth;
+	private Drawable defaultContactIcon;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		Log.d(LOG_TAG, "onCreate");
 		super.onCreate(savedInstanceState);
+
+		Resources res = getResources();
+
+		textColor = res.getColor(R.color.menu_icon_text);
+		textSize = res.getDimension(R.dimen.grid_picture_text_size);
+		pictureWidth = res.getDimension(R.dimen.grid_contact_picture_width);
+		Bitmap b = BitmapUtils.decodeSampledBitmapFromResource(res, R.drawable.ic_contact, (int) pictureWidth, (int) pictureWidth);
+		defaultContactIcon = new BitmapDrawable(b);
+
 		setContentView(R.layout.phonebook);
 		picsmsDbAdapter = new PicsmsDbAdapter(this);
 		picsmsDbAdapter.open();
@@ -81,11 +99,14 @@ public class PhoneBookActivity extends Activity {
 			info.phoneType = cursor.getString(cursor.getColumnIndex(PicsmsDbAdapter.PhoneNumberColumns.KEY_PHONE_TYPE));
 			info.contactId = cursor.getLong(cursor.getColumnIndex(PicsmsDbAdapter.PhoneNumberColumns.KEY_CONTACT_ID));
 			Drawable icon = getContactPhoto(info.contactId);
+			if (icon == null)
+				icon = defaultContactIcon;
 
 			TextView textView = (TextView) view;
 
 			textView.setCompoundDrawablesWithIntrinsicBounds(null, icon, null, null);
-			textView.setTextSize(16);
+			textView.setTextColor(textColor);
+			textView.setTextSize(textSize);
 			textView.setGravity(Gravity.CENTER);
 			textView.setText(info.contactName);
 
@@ -110,6 +131,9 @@ public class PhoneBookActivity extends Activity {
 
 			if (is != null)
 				ret = new BitmapDrawable(is);
+			else {
+				// TODO add default picture
+			}
 
 			return ret;
 

@@ -4,15 +4,6 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" style="@style/AppTheme">
 
-    <!--
-        <com.tornyak.picsms.PictureMessageBar
-       	android:id="@+id/messageBar"      
-        android:layout_width="fill_parent"
-        android:background="@color/notepad_paper"
-        android:layout_height="128dp"                 	      
-        android:layout_margin="5dp"/>
-    -->
-
     <GridView
         android:id="@+id/menuGridView"
         style="@style/gridStyle"
@@ -25,16 +16,16 @@
     <RelativeLayout
         android:id="@+id/relativeLayout1"
         android:layout_width="match_parent"
-        android:layout_height="135dp"
+        android:layout_height="@dimen/grid_message_width"
         android:background="@drawable/ic_paper_legal_pad" >
 
         <GridView
             android:id="@+id/messageGridView"
             style="@style/gridStyle"
             android:layout_width="fill_parent"
-            android:layout_height="135dp"
+            android:layout_height="match_parent"
             android:layout_toLeftOf="@+id/deleteButton"
-            android:columnWidth="64dp">
+            android:columnWidth="@dimen/grid_message_picture_width">
         </GridView>
 
         <ImageButton
