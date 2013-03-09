@@ -39,6 +39,5 @@
             android:onClick="onDeletePressed"
             android:src="@android:drawable/ic_input_delete" />
     </RelativeLayout>
-"
 
 </RelativeLayout>

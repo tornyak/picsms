@@ -27,4 +27,10 @@
         android:icon="@drawable/ic_menu_preferences"
         android:orderInCategory="1"
         android:showAsAction="always" />
+    
+    <item android:id="@+id/menu_send"
+        android:title="@string/menu_send"
+        android:icon="@drawable/ic_menu_send"
+        android:orderInCategory="1"
+        android:showAsAction="always" />
 </menu>

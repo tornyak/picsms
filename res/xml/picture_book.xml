@@ -29,11 +29,11 @@
 	</picture>
     
     
-    <picture name="give"
+<!--     <picture name="give"
              type="word"
              image="@drawable/aktivnosti_daj">
       <text>daj</text>
-		</picture>
+		</picture> -->
     
     
     <picture name="lift"
@@ -43,11 +43,11 @@
 			</picture>
     
     
-    <picture name="come"
+<!--     <picture name="come"
              type="word"
              image="@drawable/aktivnosti_dodji">
         <text>dođi</text>
-			</picture>
+			</picture> -->
     
     
     <picture name="watching_tv"
@@ -63,14 +63,7 @@
              <text>jede</text>
 			</picture>
     
-    
-    <picture name="bathtub"
-             type="word"
-             image="@drawable/aktivnosti_kada">
-             <text>kada</text>
-			</picture>
-    
-    
+       
     <picture name="poo"
              type="word"
              image="@drawable/aktivnosti_kaka">
@@ -116,28 +109,28 @@
     <picture name="washes"
              type="word"
              image="@drawable/aktivnosti_pere">
-             <text>pere</text>
+             <text>prati</text>
 			</picture>
     
     
     <picture name="baths"
              type="word"
              image="@drawable/aktivnosti_pere_4">
-             <text>kupa se</text>
+             <text>prati glavu</text>
 			</picture>
     
 
     <picture name="washes_hands"
              type="word"
              image="@drawable/aktivnosti_pere_ruke">
-             <text>pere ruke</text>
+             <text>prati ruke</text>
 			</picture>
     
     
     <picture name="drinks"
              type="word"
-             image="@drawable/aktivnosti_pije">
-             <text>pije</text>
+             image="@drawable/aktivnosti_piti">
+             <text>piti</text>
 			</picture>
     
     
@@ -153,14 +146,7 @@
              image="@drawable/aktivnosti_pliva">
              <text>pliva</text>
 			</picture>
-    
-    
-    <picture name="show"
-             type="word"
-             image="@drawable/aktivnosti_pokazi">
-             <text>pokaži</text>
-			</picture>
-    
+       
     
     <picture name="blows"
              type="word"
@@ -180,13 +166,6 @@
              type="word"
              image="@drawable/aktivnosti_sjedni">
              <text>sjedni</text>
-			</picture>
-    
-    
-    <picture name="laughs"
-             type="word"
-             image="@drawable/aktivnosti_smije_se">
-             <text>smije se</text>
 			</picture>
     
     
@@ -211,16 +190,83 @@
 			</picture>
           
   </category>
+  
+ <category name="tools"
+     image="@drawable/alat">
+    <text>alat</text>
+    
+    <picture name="nail"
+             type="word"
+             image="@drawable/alat_cavao">
+             <text>cavao</text>
+    </picture>
+    
+    <picture name="hammer"
+             type="word"
+             image="@drawable/alat_cekic">
+             <text>cekic</text>
+    </picture>
+    
+    <picture name="pliers"
+             type="word"
+             image="@drawable/alat_kljesta">
+             <text>klijesta</text>
+    </picture>
+    
+    <picture name="ladder"
+             type="word"
+             image="@drawable/alat_lojtre">
+             <text>lojtre</text>
+    </picture>
+    
+    <picture name="screwdriver"
+             type="word"
+             image="@drawable/alat_odvijac">
+             <text>odvijac</text>
+    </picture>
+    
+    <picture name="saw"
+             type="word"
+             image="@drawable/alat_pila">
+             <text>pila</text>
+    </picture>
+    
+    <picture name="to_saw"
+             type="word"
+             image="@drawable/alat_piliti">
+             <text>piliti</text>
+    </picture>
+    
+    <picture name="axe"
+             type="word"
+             image="@drawable/alat_sjekira">
+             <text>sjekira</text>
+    </picture>
+    
+    <picture name="scissors"
+             type="word"
+             image="@drawable/alat_skare">
+             <text>skare</text>
+    </picture>
+    
+    <picture name="thread"
+             type="word"
+             image="@drawable/alat_spaga">
+             <text>spaga</text>
+    </picture>
+    
+    <picture name="to_nail"
+             type="word"
+             image="@drawable/alat_zabiti_cavao">
+             <text>zabiti cavao</text>
+    </picture>
+    
+     
+ </category>
 
   <category name="body"
            image="@drawable/tijelo">
            <text>tijelo</text>
-           
-    <picture name="butt"
-             type="word"
-             image="@drawable/tijelo_guza">
-             <text>guza</text>
-			</picture>
     
 
     <picture name="hair"
@@ -245,10 +291,10 @@
 			</picture>
     
 
-    <picture name="oko"
+    <picture name="eye"
              type="word"
              image="@drawable/tijelo_oko">
-             <text>eye</text>
+             <text>oko</text>
 			</picture>
     
 
@@ -296,13 +342,6 @@
              type="word"
              image="@drawable/hrana_dorucak">
              <text>doručak</text>
-			</picture>
-    
-
-    <picture name="food"
-             type="word"
-             image="@drawable/hrana_hrana">
-             <text>hrana</text>
 			</picture>
     
 
@@ -441,7 +480,7 @@
     <picture name="mouse"
              type="word"
              image="@drawable/zivotinje_mis">
-             <text>mią</text>
+             <text>miš</text>
 			</picture>
     
 
@@ -549,66 +588,10 @@
 			</picture>
     
 
-    <picture name="finnished"
-             type="word"
-             image="@drawable/znakovi_gotovo">
-             <text>gotovo</text>
-			</picture>
-    
-
     <picture name="thank_you"
              type="word"
              image="@drawable/znakovi_hvala">
              <text>hvala</text>
-			</picture>
-    
-
-    <picture name="and"
-             type="word"
-             image="@drawable/znakovi_i">
-             <text>i</text>
-			</picture>
-    
-
-    <picture name="below"
-             type="word"
-             image="@drawable/znakovi_ispod">
-             <text>ispod</text>
-			</picture>
-    
-
-    <picture name="in_front_of"
-             type="word"
-             image="@drawable/znakovi_ispred">
-             <text>ispred</text>
-			</picture>
-    
-
-    <picture name="behind"
-             type="word"
-             image="@drawable/znakovi_iza">
-             <text>iza</text>
-			</picture>
-    
-
-    <picture name="between"
-             type="word"
-             image="@drawable/znakovi_izmedju">
-             <text>između</text>
-			</picture>
-    
-
-    <picture name="above"
-             type="word"
-             image="@drawable/znakovi_iznad">
-             <text>iznad</text>
-			</picture>
-    
-
-    <picture name="take_out"
-             type="word"
-             image="@drawable/znakovi_izvadi">
-             <text>izvadi</text>
 			</picture>
     
 
@@ -626,11 +609,11 @@
 			</picture>
     
 
-    <picture name="how"
+<!--     <picture name="how"
              type="word"
              image="@drawable/znakovi_kako">
              <text>kako</text>
-			</picture>
+			</picture> -->
     
 
     <picture name="how_are_you"
@@ -644,13 +627,6 @@
              type="word"
              image="@drawable/znakovi_kakvo_je_vrijeme">
              <text>kakvo je vrijeme</text>
-			</picture>
-    
-
-    <picture name="how_much"
-             type="word"
-             image="@drawable/znakovi_koliko">
-             <text>koliko</text>
 			</picture>
     
 
@@ -668,24 +644,10 @@
 			</picture>
     
 
-    <picture name="move"
-             type="word"
-             image="@drawable/znakovi_makni">
-             <text>makni</text>
-			</picture>
-    
-
     <picture name="my"
              type="word"
              image="@drawable/znakovi_moje">
              <text>moje</text>
-			</picture>
-    
-
-    <picture name="on"
-             type="word"
-             image="@drawable/znakovi_na">
-             <text>na</text>
 			</picture>
     
 
@@ -703,24 +665,10 @@
 			</picture>
     
 
-    <picture name="from"
-             type="word"
-             image="@drawable/znakovi_od">
-             <text>od</text>
-			</picture>
-    
-
     <picture name="ok"
              type="word"
              image="@drawable/znakovi_ok">
              <text>OK</text>
-			</picture>
-    
-
-    <picture name="around"
-             type="word"
-             image="@drawable/znakovi_oko">
-             <text>oko</text>
 			</picture>
     
 
@@ -738,13 +686,6 @@
 			</picture>
     
 
-    <picture name="this"
-             type="word"
-             image="@drawable/znakovi_ovo">
-             <text>ovo</text>
-			</picture>
-    
-
     <picture name="questions"
              type="word"
              image="@drawable/znakovi_pitanja">
@@ -759,27 +700,6 @@
 			</picture>
     
 
-    <picture name="beside"
-             type="word"
-             image="@drawable/znakovi_pokraj">
-             <text>pokraj</text>
-			</picture>
-    
-
-    <picture name="towards"
-             type="word"
-             image="@drawable/znakovi_prema">
-             <text>prema</text>
-			</picture>
-    
-
-    <picture name="with"
-             type="word"
-             image="@drawable/znakovi_sa">
-             <text>sa</text>
-			</picture>
-    
-
     <picture name="joking"
              type="word"
              image="@drawable/znakovi_salim_se">
@@ -787,10 +707,10 @@
 			</picture>
     
 
-    <picture name="what_is_that"
+    <picture name="stop"
              type="word"
-             image="@drawable/znakovi_sto_je_to">
-             <text>što je to</text>
+             image="@drawable/znakovi_stop">
+             <text>stop</text>
 			</picture>
     
 
@@ -812,13 +732,6 @@
              type="word"
              image="@drawable/znakovi_tuzan">
              <text>tužan</text>
-			</picture>
-    
-
-    <picture name="in"
-             type="word"
-             image="@drawable/znakovi_u">
-             <text>u</text>
 			</picture>
     
 
@@ -845,37 +758,78 @@
          
   </category>
   
-    <category name="items"
-           image="@drawable/predmeti">
-           <text>predmeti</text>
+    <category name="transoprt"
+           image="@drawable/prijevozna_sredstva_vozila">
+           <text>prijevoz</text>
            
       <picture name="car"
                type="word"
-               image="@drawable/predmeti_auto">
+               image="@drawable/prijevozna_sredstva_auto">
                <text>auto</text>
 			</picture>
       
 
       <picture name="baloons"
                type="word"
-               image="@drawable/predmeti_baloni">
+               image="@drawable/prijevozna_sredstva_baloni">
                <text>baloni</text>
 			</picture>
       
 
       <picture name="bicycle"
                type="word"
-               image="@drawable/predmeti_bicikl">
+               image="@drawable/prijevozna_sredstva_bicikl">
                <text>bicikl</text>
 			</picture>
       
 
       <picture name="boat"
                type="word"
-               image="@drawable/predmeti_brod">
+               image="@drawable/prijevozna_sredstva_brod">
                <text>brod</text>
 			</picture>
       
+      <picture name="bus"
+               type="word"
+               image="@drawable/prijevozna_sredstva_bus">
+               <text>autobus</text>
+			</picture>
+      
+      <picture name="helicopter"
+               type="word"
+               image="@drawable/prijevozna_sredstva_helikopter">
+               <text>helikopter</text>
+			</picture>
+			
+      
+      <picture name="truck"
+               type="word"
+               image="@drawable/prijevozna_sredstva_kamion">
+               <text>kamion</text>
+			</picture>
+
+			
+      
+      <picture name="motor"
+               type="word"
+               image="@drawable/prijevozna_sredstva_motor">
+               <text>motor</text>
+			</picture>
+			
+								
+      
+      <picture name="train"
+               type="word"
+               image="@drawable/prijevozna_sredstva_vlak">
+               <text>vlak</text>
+			</picture>			
+	
+			
+  </category>
+  
+    <category name="items"
+           image="@drawable/predmeti">
+           <text>predmeti</text>
 
       <picture name="glass"
                type="word"
@@ -945,13 +899,7 @@
                image="@drawable/predmeti_ljuljacka">
                <text>ljuljačka</text>
 			</picture>
-      
 
-      <picture name="airplane"
-               type="word"
-               image="@drawable/predmeti_avion">
-               <text>avion</text>
-			</picture>
       
 
       <picture name="pencil"
@@ -1009,12 +957,6 @@
                <text>TV</text>
 			</picture>
       
-
-      <picture name="train"
-               type="word"
-               image="@drawable/predmeti_vlak">
-               <text>vlak</text>
-			</picture>
       
 
       <picture name="door"
@@ -1030,7 +972,7 @@
              image="@drawable/odjeca">
              <text>odjeća</text>
            
-      <picture name="socks"
+      <!-- <picture name="socks"
                type="word"
                image="@drawable/odjeca_carape">
                <text>čarape</text>
@@ -1097,7 +1039,7 @@
                type="word"
                image="@drawable/odjeca_tenesice">
                <text>tenisice</text>
-			</picture>
+			</picture> -->
       
          
   </category>  
@@ -1106,7 +1048,7 @@
            image="@drawable/boje">
            <text>boje</text>
 
-      <picture name="white"
+      <!-- <picture name="white"
                type="word"
                image="@drawable/boje_bijela">
                <text>bijela</text>
@@ -1179,7 +1121,7 @@
                type="word"
                image="@drawable/boje_zuta">
                <text>žuta</text>
-			</picture>
+			</picture> -->
       
 
   </category>
@@ -1189,7 +1131,7 @@
            image="@drawable/mjesta">
            <text>mjesta</text>
            
-      <picture name="cinema"
+      <!-- <picture name="cinema"
                type="word"
                image="@drawable/mjesta_kino">
                <text>kino</text>
@@ -1228,18 +1170,18 @@
                type="word"
                image="@drawable/mjesta_zoo">
                <text>ZOO</text>
-			</picture>
+			</picture> -->
       
          
   </category>
   
   <category name="nature"
-           image="@drawable/priroda">
+           image="@drawable/priroda_vrijeme">
            <text>priroda</text>
 
       <picture name="flower"
                type="word"
-               image="@drawable/priroda_cvijet_1">
+               image="@drawable/priroda_cvijet">
                <text>cvijet</text>
 			</picture>
       
@@ -1348,10 +1290,18 @@
                <text>zima</text>
 			</picture>
       
+	  
+	        <picture name="rainbow"
+               type="word"
+               image="@drawable/priroda_duga">
+               <text>duga</text>
+			</picture>
+			
+			
          
   </category>
   
-  <picture name="keyboard"
+<!--   <picture name="keyboard"
            type="action"
            image="@drawable/keyboard">
            <text>tipkovnica</text>
@@ -1363,6 +1313,6 @@
            image="@drawable/message">
            <text>SMS</text>
            <action>send_sms</action>
-  </picture>
+  </picture> -->
            
 </pictureBook>

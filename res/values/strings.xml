@@ -3,18 +3,14 @@
 
     <string name="TODO">TODO</string>
     <string name="app_name">Picsms</string>
-    
     <string name="alternate_title">An alternate title that is long</string>
     <string name="toggle_title">Toggle title</string>
-
     <string name="menu_refresh">Refresh</string>
     <string name="menu_search">Search</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="pref_contact_list">Select contacts</string>
-    
-    
-    
+
     <!-- Copied from emergency info app, clean later -->
     <string name="setup">Setup</string>
     <string name="ok">OK</string>
@@ -29,39 +25,38 @@
     <string name="save">Save</string>
     <string name="discard">Discard</string>
     <string name="no_csr">To be created</string>
-    
-    
-
     <string name="pref_calls_filter_add">Add new number</string>
     <string name="pref_calls_filter_pick">Pick number</string>
     <string name="pref_sdm_key">PREF_SDM</string>
     <string name="pref_sdm_mgr_key">PREF_SDM_MGR</string>
     <string name="pref_customer_key">PREF_CUSTOMER</string>
-    
     <string name="enter_name_or_number">Enter name or number</string>
-    
+
     <!-- Phone Types -->
     <string name="phone_type_assistant">Assistant</string>
     <string name="phone_type_callback">Callback</string>
     <string name="phone_type_car">Car</string>
-    <string name="phone_type_company_main">Company main</string>	
-	<string name="phone_type_fax_home">Fax home</string>
-	<string name="phone_type_fax_work">Fax work</string>
-	<string name="phone_type_home">Home</string>
-	<string name="phone_type_isdn">Isdn</string>
-	<string name="phone_type_main">Main</string>
-	<string name="phone_type_mms">MMS</string>
-	<string name="phone_type_mobile">Mobile</string>
-	<string name="phone_type_other">Other</string>
-	<string name="phone_type_other_fax">Other fax</string>
-	<string name="phone_type_pager">Pager</string>
-	<string name="phone_type_radio">Radio</string>
-	<string name="phone_type_telex">Telex</string>
-	<string name="phone_type_tty_tdd">Tty tdd</string>
-	<string name="phone_type_work">Work</string>
-	<string name="phone_type_work_mobile">Work mobile</string>
-	<string name="phone_type_work_pager">Work pager</string>
-	<string name="delete_item">Delete</string>
-	<string name="menu_settings">Settings</string>
+    <string name="phone_type_company_main">Company main</string>
+    <string name="phone_type_fax_home">Fax home</string>
+    <string name="phone_type_fax_work">Fax work</string>
+    <string name="phone_type_home">Home</string>
+    <string name="phone_type_isdn">Isdn</string>
+    <string name="phone_type_main">Main</string>
+    <string name="phone_type_mms">MMS</string>
+    <string name="phone_type_mobile">Mobile</string>
+    <string name="phone_type_other">Other</string>
+    <string name="phone_type_other_fax">Other fax</string>
+    <string name="phone_type_pager">Pager</string>
+    <string name="phone_type_radio">Radio</string>
+    <string name="phone_type_telex">Telex</string>
+    <string name="phone_type_tty_tdd">Tty tdd</string>
+    <string name="phone_type_work">Work</string>
+    <string name="phone_type_work_mobile">Work mobile</string>
+    <string name="phone_type_work_pager">Work pager</string>
+    <string name="delete_item">Delete</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_inbox">Picsms Inbox</string>
+    <string name="new_picsms">New Picture SMS</string>
 
 </resources>

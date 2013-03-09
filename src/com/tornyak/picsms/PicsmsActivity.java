@@ -72,28 +72,23 @@ public class PicsmsActivity extends ActionBarActivity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+	    
+	    Intent it = null;
+	    
 		switch (item.getItemId()) {
-			case android.R.id.home:
-				Toast.makeText(this, "Tapped home", Toast.LENGTH_SHORT).show();
-			break;
-
-			case R.id.menu_refresh:
-				Toast.makeText(this, "Fake refreshing...", Toast.LENGTH_SHORT).show();
-				getActionBarHelper().setRefreshActionItemState(true);
-				getWindow().getDecorView().postDelayed(new Runnable() {
-					@Override
-					public void run() {
-						getActionBarHelper().setRefreshActionItemState(false);
-					}
-				}, 1000);
-			break;
+			
 
 			case R.id.menu_share:
 				Toast.makeText(this, "Tapped share", Toast.LENGTH_SHORT).show();
+				break;
 			case R.id.menu_settings:
-				Intent it = new Intent(this, PicsmsPreferences.class);
+				it = new Intent(this, PicsmsPreferences.class);
 				startActivity(it);
-			break;
+				break;
+			case R.id.menu_send:
+			    it = new Intent(this, PhoneBookActivity.class);
+                startActivity(it);
+                break;
 		}
 		return super.onOptionsItemSelected(item);
 	}
